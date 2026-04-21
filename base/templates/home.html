@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block content %}
+    <h1>🌤 Weather App</h1>
+    <center>
+         <form>
+        <label>Enter city:</label>
+        <input type="text" name="city">
+        <button type="submit">Search</button>
+    </form>
+    </center>
+        <div class="center-box">
+            <h1>WEATHER REPORT</h1>
+            <h2>City: {{ data.name }}</h2>
+            <h2>Temperature: {{ data.main.temp }}</h2>
+            <h2>Humidity: {{ data.main.humidity }}</h2>
+            <h2>Pressure: {{ data.main.pressure }}</h2>
+            <h2>Wind Speed: {{ data.wind.speed }}</h2>
+            <h2>Description: {{ data.weather.0.description }}</h2>
+        </div>
+{% endblock %}
