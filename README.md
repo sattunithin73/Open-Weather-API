@@ -71,10 +71,6 @@ http://127.0.0.1:8000/
 
 - OpenWeather API (https://openweathermap.org/api)
 
-## 📸 Screenshots
-
-(Add screenshots here if you want)
-
 ## 📌 Future Improvements
 
 - Add 5-day forecast
@@ -84,7 +80,7 @@ http://127.0.0.1:8000/
 
 ## 🌐 Live Demo
 
-(Add your deployed link here if available)
+https://weather-api-soqw.onrender.com
 
 ## 🤝 Contributing
 
